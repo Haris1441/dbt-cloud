@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: migration_raw
+    description: Data copied from the source BigQuery project.
+    database: target-learning-513716
+    schema: raw
+
+    tables:
+      - name: customers
+      - name: customers_nested
+      - name: orders
